@@ -364,6 +364,20 @@ button {
   transition: .5s;
 }
 
+/* Ride Request(s) */
+.requests {
+  display: flex;
+  justify-content: space-between;
+}
+
+.requests button {
+  margin: 3px auto;
+}
+
+.requests a {
+  margin: auto 0;
+}
+
 /************
 Media queries
 ************/
