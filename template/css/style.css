@@ -267,6 +267,52 @@ footer a:hover {
   margin-top: 20px;
 }
 
+/* Available rides */
+#rides {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.ride {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-color: var(--bright);
+  display: inline-block;
+  border-radius: 5px;
+  word-wrap: break-word;
+  transition: .3s;
+  box-shadow: var(--box-shadow);
+}
+
+.ride:hover {
+  box-shadow: 5px 5px 10px var(--light);
+}
+
+.ride ul {
+  height: 240px;
+  overflow: auto;
+  text-align: left;
+}
+
+.ride ul ~ a {
+  margin: 0 10px;
+}
+
+.ride li {
+  margin: 0 10px;
+  padding: 12px 0;
+  border-top: 1px solid var(--light);
+}
+
+.ride li:first-child {
+  border-top: none;
+}
+
+ul ~ a, ul ~ button {
+  display: block;
+}
+
 /************
 Media queries
 ************/
