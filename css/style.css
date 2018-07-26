@@ -352,6 +352,18 @@ button {
   background-color: #e74c3c;
 }
 
+/* Rider Profile */
+#profile-pics {
+  background-color: var(--lighter);
+  background-image: url('../images/bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  height: 250px;
+  transition: .5s;
+}
+
 /************
 Media queries
 ************/
