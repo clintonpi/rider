@@ -243,6 +243,30 @@ footer a:hover {
   color: var(--light);
 }
 
+/* Sign up  and log in*/
+.spread {
+  width: 100%;
+  min-height: calc(100vh - var(--top));
+  margin-top: var(--top);
+  padding: 10vh 0;
+  text-align: center;
+  background-color: var(--lighter);
+}
+
+.spread form {
+  display: flex;
+  flex-direction: column;
+}
+
+.spread input {
+  max-width: 95%;
+  width: 450px;
+}
+
+.spread form + p {
+  margin-top: 20px;
+}
+
 /************
 Media queries
 ************/
